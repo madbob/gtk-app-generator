@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright @YEAR@ @PACKAGE_AUTHOR@ <@PACKAGE_EMAIL@> -->
 <application>
   <id type="desktop">@PACKAGE_NAME@.desktop</id>
-  <licence>CC0</licence>
+  <metadata_licence>CC0</metadata_licence>
+  <project_license>GPL-3.0+</project_license>
+  <name>@APPLICATION_NAME@</name>
+  <summary>@APPLICATION_COMMENT@</summary>
   <description>
     <_p>
       Fill your description here.
@@ -11,5 +15,5 @@
     <screenshot type="default" width="1024" height="768">@PACKAGE_URL@/screenshots/large.png</screenshot>
   </screenshots>
   <url type="homepage">@PACKAGE_URL@</url>
-  <updatecontact>@PACKAGE_EMAIL@</updatecontact>
+  <update_contact>@PACKAGE_EMAIL@</update_contact>
 </application>
