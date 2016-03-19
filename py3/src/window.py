@@ -55,7 +55,7 @@ class MainWindow(Gtk.ApplicationWindow):
             program_name=_("@APPLICATION_NAME@"),
             comments=_("@APPLICATION_COMMENT@"),
             copyright='Copyright @YEAR@ The @APPLICATION_NAME@ developers',
-            license_type=Gtk.License.GPL_2_0,
+            license_type=Gtk.License.GPL_3_0,
             logo_icon_name=pkg.name,
             version=pkg.version,
             website='@PACKAGE_URL@',

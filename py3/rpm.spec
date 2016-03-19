@@ -3,7 +3,7 @@ Version:	%{_version}
 Release:	1%{?dist}
 Summary:	@APPLICATION_NAME@
 
-License:	GPLv2+ and BSD
+License:	GPLv3+
 URL:		@PACKAGE_URL@
 Source0:        %{_distdir}-%{version}.tar.xz
 BuildArch:      noarch
