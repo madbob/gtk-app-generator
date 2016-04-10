@@ -56,8 +56,8 @@ def main():
                         help='The author name (optional, will ask git if not provided)')
     parser.add_argument('--url', dest='url', required=True,
                         help='The application home page')
-    parser.add_argument('-T', '--template', dest='template', default='js',
-                        help='Which template to use (defaults to js)')
+    parser.add_argument('-T', '--template', dest='template', default='py3',
+                        help='Which template to use (defaults to py3)')
 
     opt = parser.parse_args(sys.argv[1:])
 
