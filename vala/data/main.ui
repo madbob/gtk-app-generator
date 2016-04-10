@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <interface>
-  <!-- interface-requires gtk+ 3.6 -->
+  <!-- interface-requires gtk+ 3.10 -->
   <template class="WindowMainWindow" parent="GtkApplicationWindow">
     <property name="default-width">640</property>
     <property name="default-height">480</property>
